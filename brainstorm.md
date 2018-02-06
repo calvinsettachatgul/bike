@@ -25,9 +25,7 @@
     - traffic lights 
     - stop signs 
     - lighting
-    - crime area  
+    - high crime area danger for bicyclist and bike storage 
     - scenic view quality 
     - rating route based on time of day and traffic congestion main street or side street?
     - elevation 
-
-
