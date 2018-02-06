@@ -27,7 +27,7 @@
     - lighting
     - crime area  
     - scenic view quality 
-    - rating route based on time of day and traffic congestion 
+    - rating route based on time of day and traffic congestion main street or side street?
     - elevation 
 
 
