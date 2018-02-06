@@ -21,7 +21,7 @@
 * Rating a bike route 
     - areas prone accident areas 
     - bicyclist rated as dangerous 
-    - bike lane present what percentage of the route 
+    - bike lane present what percentage of the route what type of bike lane protected? narrow or wide?
     - traffic lights 
     - stop signs 
     - lighting
@@ -29,6 +29,7 @@
     - scenic view quality 
     - rating route based on time of day and traffic congestion main street or side street?
     - elevation 
+    - predicted time
 
 * Product features
         - What might the product have?
