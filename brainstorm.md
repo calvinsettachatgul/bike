@@ -7,7 +7,7 @@
 * Facebook group can test out the app and provide additional feedback
 
 # API for 
-- Perhaps look for similar APIs to do something with the data 
+    - Perhaps look for similar APIs to do something with the data 
 
 * Traffic accidents in a location 
 * Google maps bike routes -- improving on these somehow 
