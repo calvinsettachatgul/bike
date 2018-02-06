@@ -29,3 +29,9 @@
     - scenic view quality 
     - rating route based on time of day and traffic congestion main street or side street?
     - elevation 
+
+* Product features
+        - What might the product have?
+    * Biker can store routes
+    * Visualize different routes and have them scored?
+    * Bikers can share routes
