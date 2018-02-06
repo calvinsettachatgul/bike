@@ -1,9 +1,10 @@
 # Brainstorming ideas
 
-# Bike Community Outreach
+# Bike Community Outreach Feedback
 * Ask local biker communities what they would like to see 
 * What problems they deal with when biking concerning safety?
 * How do you find your bike route?
+* Facebook group can test out the app and provide additional feedback
 
 # API for 
 - Perhaps look for similar APIs to do something with the data 
