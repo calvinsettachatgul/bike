@@ -36,3 +36,22 @@
     * Biker can store routes
     * Visualize different routes and have them scored?
     * Bikers can share routes
+
+# what is an mvp right now 
+
+    focus on creating and saving bike routes 
+    sharing them with other people 
+
+    finding a route in an area  
+        start and destination 
+        
+    just like google maps 
+    turn left 
+
+    how are routes defined 
+    what are they composed of  
+        routes homes are complicated 
+        
+    
+    google maps api 
+         
