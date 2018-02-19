@@ -45,13 +45,12 @@
     finding a route in an area  
         start and destination 
         
-    just like google maps 
+    it may just like google maps 
     turn left 
 
     how are routes defined 
     what are they composed of  
         routes homes are complicated 
-        
     
     google maps api 
          
