@@ -25,7 +25,9 @@
 in browser open 
 
 localhost:5000/
+
 localhost:5000/calvin
+
 localhost:5000/wendy
 
 ![index page](../image/bike_index_page.png)
