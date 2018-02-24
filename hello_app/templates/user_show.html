@@ -4,11 +4,12 @@
 <meta charset='UTF-8'>
 <title>
 </title>
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <p>this is our user show page and this is who we retreived</p>
     {{ rider.name }} 
     {{ rider.location }}
+<script src="{{url_for('static',filename='user_show.js')}}"></script>
 </body>
 </html>
