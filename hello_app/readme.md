@@ -19,3 +19,12 @@
 ###  start the server 
 
 > flask run 
+
+### check out some pages
+
+in browser open 
+
+localhost:5000/
+localhost:5000/calvin
+localhost:5000/wendy
+
