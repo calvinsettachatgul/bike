@@ -5,11 +5,12 @@
 <title>
 Riders on Bike App
 </title>
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>this is our user show page and this is who we retreived</h1>
     {{ rider.name }} 
     {{ rider.location }}
+<script src="{{url_for('static',filename='user_show.js')}}"></script>
 </body>
 </html>

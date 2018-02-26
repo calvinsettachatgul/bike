@@ -16,8 +16,18 @@ rider3 = {
 	"name": "Dana",
 	"location": "Mountain View" }   
 
+people = [rider1, rider2, rider3 ]
+
 @app.route('/')
-def hello_world():
-    return render_template('user_show.html', rider=person1)
+def index():
+    print(people)
+    return render_template('index.html', people=people)
+
+@app.route('/calvin')
+def hello_world_calvin():
+    return render_template('user_show.html', rider=people[0])
     # json.dumps(person1)
 
+@app.route('/wendy')
+def hello_world_wendy():
+    return render_template('user_show.html', rider=people[1])
