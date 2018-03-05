@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+        background-color: grey;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <p><a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map">Basic Google maps turtorial</a></p>
+    <p><a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map">Saving user data turtorial</a></p>
+    <p>I think we also need the Geocoding API</p> 
+    
+    <p id="warning">Don't store API key in code. See the <a href="https://support.google.com/googleapi/answer/6310037">Best practices for securing your key</a></p>
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>
