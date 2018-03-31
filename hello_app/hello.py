@@ -36,6 +36,12 @@ def hello_world_calvin():
 def hello_world_wendy():
     return render_template('user_show.html', rider=people[1])
 
+@app.route('/users/<user_id>')
+def get_user(user_id):
+    user_id = int(user_id)
+    print(user_id)
+    return jsonify(users[user_id])
+
 @app.route('/users/<user_id>/bikeways/<bikeway_id>')
 def get_user_bikeway(user_id, bikeway_id):
     user_id = int(user_id)
