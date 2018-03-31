@@ -65,6 +65,7 @@ for user in users:
   print(user["last_name"])
   print(user["bikeways"][0])
 
+<<<<<<< HEAD
 '''
 Millbrae
 California 94030
