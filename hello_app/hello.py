@@ -1,3 +1,4 @@
+from data import users
 from flask import Flask, render_template
 import json 
 
@@ -17,6 +18,8 @@ rider3 = {
 	"location": "Mountain View" }   
 
 people = [rider1, rider2, rider3 ]
+
+print(users)
 
 @app.route('/')
 def index():
