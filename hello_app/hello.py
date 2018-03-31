@@ -34,3 +34,6 @@ def hello_world_calvin():
 @app.route('/wendy')
 def hello_world_wendy():
     return render_template('user_show.html', rider=people[1])
+
+if __name__ == "__main__":
+  app.run(debug=True)  
