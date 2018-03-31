@@ -1,4 +1,5 @@
 from data import users
+from flask import jsonify
 from flask import Flask, render_template
 import json 
 
@@ -35,5 +36,11 @@ def hello_world_calvin():
 def hello_world_wendy():
     return render_template('user_show.html', rider=people[1])
 
-if __name__ == "__main__":
+@app.route('/users/<user_id>/bikeways/<bikeway_id>')
+def get_user_bikeway(user_id, bikeway_id):
+    user_id = int(user_id)
+    bikeway_id = int(bikeway_id)
+    return jsonify(users[user_id]["bikeways"][bikeway_id])
+
+if (__name__ == "__main__"):
   app.run(debug=True)  
