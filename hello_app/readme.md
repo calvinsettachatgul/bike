@@ -30,4 +30,12 @@ localhost:5000/calvin
 
 localhost:5000/wendy
 
+### setup has changed
+
+run the set up script 
+
+execute 
+
+python hello.py
+
 ![index page](../image/bike_index_page.png)

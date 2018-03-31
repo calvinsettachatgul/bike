@@ -1,0 +1,11 @@
+
+#!/bin/bash
+# this script will setup bike_env and pip install dependencies from requirements.txt
+# first make this setup script executable 
+# > chmod +ugo+x setup_venv
+
+virtualenv bike_env
+source bike_env/bin/activate
+
+pip install -r requirements.txt
+
