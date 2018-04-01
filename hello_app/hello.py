@@ -1,23 +1,12 @@
 from flask import Flask, render_template
 import json 
-from data import users
+from data import people
 
 app = Flask(__name__)
 
 #Maybe create a user_input? Maybe pseudocode this 
 #Is there any way to combine all of the riders? 
-
-rider1 = { "name": "calvin", 
-           "location": "San Mateo" } 
-rider2 = {
-	"name": "Wendy",
-	"location": "Palo Alto" }         
-
-rider3 = {
-	"name": "Dana",
-	"location": "Mountain View" }   
-
-people = [rider1, rider2, rider3 ]
+  
 
 @app.route('/')
 def index():
