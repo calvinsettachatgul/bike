@@ -1,6 +1,6 @@
 users = [
-  {"first_name": "calvin",
-   "last_name": "settachatgul",
+  {"first_name": "cal",
+   "last_name": "set",
    "email": "calvin@example.com",
    "bikeways": [
                  { "name": "home to bart",
@@ -14,8 +14,8 @@ users = [
                  }
                 ]
   },
-  {"first_name": "wendy",
-   "last_name": "mol",
+  {"first_name": "wen",
+   "last_name": "mo",
    "email": "wen@example.com",
    "bikeways": [
                  { "name": "san mateo library to burlingame library",
@@ -28,8 +28,8 @@ users = [
                  }
                ]
   },
-  {"first_name": "diana",
-   "last_name": "mol",
+  {"first_name": "dia",
+   "last_name": "mo",
    "email": "dian@example.com",
    "bikeways": [
                  { "name": "bart to autodesk sf",
@@ -43,7 +43,7 @@ users = [
                ]
   },
   {"first_name": "ben",
-   "last_name": "pap",
+   "last_name": "pa",
    "email": "ben@example.com",
    "bikeways": [
                  { "name": "library to airport",
