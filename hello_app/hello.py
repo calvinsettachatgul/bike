@@ -4,14 +4,15 @@ from data import people
 
 app = Flask(__name__)
 
-#Maybe create a user_input? Maybe pseudocode this 
-#Is there any way to combine all of the riders? 
-  
-
 @app.route('/')
 def index():
     print(people)
     return render_template('index.html', people=people)
+
+@app.route('/users')
+def get_users():
+    return render_template('index.html', people=people)
+
 
 @app.route('/calvin')
 def hello_world_calvin():
