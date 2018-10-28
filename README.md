@@ -1,5 +1,6 @@
-# bike
-bike safer
+# Bikeways
+
+Bike safer.
 
 [brainstorming](brainstorm.md)
 
